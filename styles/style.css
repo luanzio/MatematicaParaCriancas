@@ -111,3 +111,19 @@ body {
   color: #f2f242fa;
   background-color: #00ffff;
 }
+@media(max-width:480px){
+  .nav h2{
+    float: none;
+    text-align: center;
+  }
+
+  .equation h1{
+    display: inline;
+    padding: 10px;
+  } 
+
+  nav li{
+    font-size: .8rem;
+  }
+
+}
